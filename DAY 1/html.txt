@@ -1,0 +1,98 @@
+HTML Basics:
+->HTML stands for HyperText Markup language.
+->This is the most basic building block of every web application.Without using HTML we cannot build web applications. It is the mandotory technology.
+->We can use CSS to style HTML Pages.
+->We can use Java Script to add functionality to the HTML pages.
+
+Strcutre of HTML Page:
+->Every HTML page contains 2 parts
+1) Head 
+2) Body
+->Head contains meta data like title of the page, keywords etc. CSS files and Java Script 
+files information we have to specify in the Head Part only.
+->Body contains actual content
+
+HTML Comment:
+<--anything indide consider  as Comment--> 
+
+
+HTML title:
+<head>
+    <title>HTML Tutorial</title> => This is title block which carry the name of site
+</head>
+
+
+
+Heading Tag:
+<body>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heasing 6</h6>
+</body>
+
+
+Paragraph Tag:
+<body>
+    <--Case 1-->
+    <p>First Paragraph</p>
+    <--Case 2-->
+    <p>
+        First
+        Paragraph
+    </p>
+    <--Case 3-->
+    <p>First</p><p>Paragraph</p>
+</body>
+
+
+
+Bold and Italic:
+<body>
+    <p><b><i>This paragraph represent Bold and Italic </i></b></p>
+    <p><strong><em>strong for Bold and em for Italic</em></strong></p>
+</body>
+
+
+
+HTML List::
+->Ordered List
+->Unordered List
+
+
+->Ordered List:
+<body>
+    <ol>
+        <li>Rice</li>
+        <li>Mutton</li>
+        <li>Fish</li>
+    </ol>
+</body>
+
+
+->Unordered List:
+<body>
+    <ul>
+        <li>Rice</li>
+        <li>Mutton</li>
+        <li>Fish</li>
+    </ul>
+</body>
+
+
+
+we can use list inside list, which is known nested list..
+    <ol>
+        <li>Rice</li>
+        <li>Mutton</li>
+        <li>Fish</li>
+        <ul>
+            <li>Rice</li>
+            <li>Mutton</li>
+            <li>Fish</li>
+        </ul>
+    </ol>
+
+    
