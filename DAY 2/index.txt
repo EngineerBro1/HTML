@@ -1,0 +1,38 @@
+DIV AND SPAN TAG:
+we can use DIV and SPAN tags to group related tags into a single unit
+div means division
+
+    <div class="group">
+        <h1>group content</h1>
+    </div>
+
+SPAN tag is exactly same as division tag except that it is inline i.e. to define group within the line of text we can use SPAN tag
+
+    <p>This is a paragraph with<span style="color: blue; font-weight:bold;background-color: rgb(51, 118, 118);">HIGHLIGHTED TEXT</span></p>
+
+
+ATTRIBUTES:
+HTML ATTRIBUTES will be provide extra info to HTML
+To insert a image src ATTRIBUTE specify location of the image to <img>
+
+Setting Img Inside HTML:
+    <img src="img1.jpg">
+    <img src="img2.jpg" alt="Image Missing">
+->src means source where we have to specify the image source(complete location). We 
+    can take image address from the google also. 
+->alt means alternate. If image is missing then broken link image will display.In this case 
+    if we want to display some meaningful text information then we should go for alt 
+    attribute.
+
+HYPERLINK:
+It is simply refered as a link/clickable in document or web page to redirect user to another web page
+
+ <a href="main.html">Main</a>
+
+
+TABLE CREATION:
+<table> to creat table
+<thead> to specify head row
+<th> to specify column data in head row
+<tr> to insert row in table
+<td> to specify column data in the row
