@@ -1,0 +1,57 @@
+Creation of HTML Forms:
+-->As the part of web application development, we have to develop several forms like 
+    login form, registration form etc
+->We can create Html form by using <form> tag.
+ <form class="" action="" method="">
+ .....
+ </form>
+
+-->Within the form to collect end user input, we have to use <input> tag.
+-->This <input> tag will play very important role in form creation
+
+-->type attribute can be used to specify the type of input end user has to provide. The -->  main important types are:
+        ->text
+        ->email
+        ->password
+        ->color
+        ->submit
+        ->checkbox
+        ->radio,etc
+-->name attribute represents the name of input tag. By using this name,in the next target -->  page we can access end user provided input value.
+-->value attribute represents default value will be displayed in the form.
+
+    <input type="text" name="UserName" value="Enter UserName">
+    <input type="text" name="Password" value="Enter The Password">
+    <input type="checkbox" name="Course" value="">
+
+
+
+
+-->To provide default value it is highly recommended to use placeholder attribute 
+   because end user is not required to delete defualt value while entering data.
+Eg: <input type="text" name="username" placeholder="Enter User Name"/>
+
+
+
+-->Creation of Labels for HTML Elements:
+We can define Label Text for our HTML Elements like Radio Buttons, Text Box etc by using 
+<label> tag.
+
+
+    <label for="name">Enter Name</label>
+    <input type="text" name="UserName" value="UserName">
+
+
+-->required Attribute:
+If end user compulsory should required to provide input value then we should go for 
+required attribute
+
+    <input type="text" name="Password" placeholder="Password" required>
+
+
+
+-->action Attribute:
+Once we fill the form and click submit, then to which page it will go is decided by action 
+attribute.The value of action attribute can be either local resource or web url. 
+
+
