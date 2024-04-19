@@ -1,0 +1,57 @@
+How to implement Drop down box/select box:
+
+   <h2>Select Your Payment Method</h2>
+    <select name="PaymentMode">
+        <option value="CdCard">Credit Card</option>
+        <option value="DbCard">Debit Card</option>
+        <option value="UPI">UPI</option>
+        <option value="Pal">PayPal</option>
+    </select>
+
+
+textarea element:
+
+    <h2>Enter Your Feedback</h2>
+    <textarea name="Feedback" rows="10" cols="50"></textarea>
+
+
+
+checkbox:
+
+
+    <form>
+        <h1>Mark Known Language</h1>
+        <input type="checkbox" name="Language" value="English" >English<br>
+        <input type="checkbox" name="Language" value="Hindi">Hindi<br>
+    </form>
+
+
+
+How to include spaces in HTML:
+1) Type "nbsp" to add a single space.
+2) Type "ensp" to add 2 spaces.
+3) Type "emsp" to add 4 spaces.
+4) Use the non-breaking space (nbsp) 4 times to insert a tab.
+5) Use "br" to add a line break.
+
+
+How to declare multiple submit buttons in the form:
+Within the form we can define multiple submit buttons. But based on value we can 
+implement corresponding action in the back-end.
+
+    <form action="target">
+        <input type="submit" name="action" value="update">
+        <input type="submit" name="action" value="save">
+        <input type="submit" name="action" value="edit">
+        <input type="submit" name="action" value="delete">
+    </form>
+
+
+HTML Validations:
+By using HTML, we can perform the following validations
+1) required
+2) email
+3) min and max length
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" pattern="{5,8}" placeholder="Enter your Password" title="Password must be 5 to 10 characters" required>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 4</title>
+</head>
+<body>
+    <h2>Select Your Payment Method</h2>
+    <select name="PaymentMode">
+        <option value="CdCard">Credit Card</option>
+        <option value="DbCard">Debit Card</option>
+        <option value="UPI">UPI</option>
+        <option value="Pal">PayPal</option>
+    </select>
+
+    
+    <h2>Enter Your Feedback</h2>
+    <textarea name="Feedback" rows="10" cols="50"></textarea>
+
+
+    
+    <form>
+        <h1>Mark Known Language</h1>
+        <input type="checkbox" name="Language" value="English" >English<br>
+        <input type="checkbox" name="Language" value="Hindi">Hindi<br>
+    </form>
+
+    
+    <form action="target">
+        <input type="submit" name="action" value="update">
+        <input type="submit" name="action" value="save">
+        <input type="submit" name="action" value="edit">
+        <input type="submit" name="action" value="delete">
+    </form>
+
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password" pattern="{5,8}" placeholder="Enter your Password" title="Password must be 5 to 10 characters" required>
+
+</body>
+</html>
